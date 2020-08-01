@@ -38,7 +38,6 @@ $mes=strftime('%B', strtotime('today'));//mes de hoje por extenso
 $mestm=strftime('%B', strtotime('tomorrow'));//mes de amanha por extenso
 $ano=date("y");//ano atual
 //fim hora e data
-
 //mensagens html principais
 $msg1 = ("<center><h1 style='font-size:900%;color:#ffffff;'>HOJE HÁ FEIRA</h1></center>
 ");
@@ -68,7 +67,7 @@ if ($ano==$anodasdatas){
 	//fim da selecao das mensagens ha ou nao ha feira
 
 	//inicio dos restantes dias
-	echo ("<center><p style='font-size:125%; color:#ffffff;'><b>Feiras durante o mês de ".$mes.": ".$meshoje."</b></p></center>");
+	echo ("<center><p style='font-size:125%; color:#ffffff;'><b>Feiras durante o mês de ".$mes."".$meshoje."</b></p></center>");
 	//fim dos restantes dias
 	}
 			else{
