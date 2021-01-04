@@ -75,6 +75,6 @@ if ($ano==$anodasdatas){
 
 //rodape
 echo'
-<center><p style="font-size:100%; color:#ffffff;"><b>Feito com muito ♡ pelo Rui Moreira</b> <iframe src="https://ghbtns.com/github-btn.html?user=RuiJMoreira&repo=hafeira&type=fork&count=true" frameborder="0" scrolling="0" width="80" height="20" title="GitHub"></iframe></p></center>';
+<center><br><br><p style="font-size:100%; color:#ffffff;"><b>Feito com muito ♡ pelo Rui Moreira</b> <iframe src="https://ghbtns.com/github-btn.html?user=RuiJMoreira&repo=hafeira&type=fork&count=true" frameborder="0" scrolling="0" width="80" height="20" title="GitHub"></iframe><br><br><b>Último update às datas ocorreu a 4 de janeiro de 2021</b></p></center>';
 
 ?>
