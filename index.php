@@ -34,8 +34,8 @@ setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');//opcao 
 $datetm=new DateTime('tomorrow');//opcao data de amanha
 $sysday = date("d");//dia de hoje
 $sysdaytm=$datetm->format('d');//dia de amanha
-$mes=strftime('%B', strtotime('today'));//mes de hoje por extenso
-$mestm=strftime('%B', strtotime('tomorrow'));//mes de amanha por extenso
+$mes=utf8_encode(strftime('%B', strtotime('today')));//mes de hoje por extenso
+$mestm=utf8_encode(strftime('%B', strtotime('tomorrow')));//mes de amanha por extenso
 $ano=date("y");//ano atual
 //fim hora e data
 //mensagens html principais
